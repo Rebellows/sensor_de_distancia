@@ -14,7 +14,7 @@
 #define LORA_DIO0 2
 #define LORA_FREQ 433E6
 
-#define ALERT_RADIUS_M 100.0  
+#define ALERT_RADIUS_M 2
 
 HardwareSerial GPSserial(1);
 TinyGPSPlus gps;
